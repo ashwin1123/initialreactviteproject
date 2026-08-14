@@ -12,11 +12,11 @@ import Infrastructure from './pages/Infrastructure';
 import Lifeatcompany from './pages/Lifeatcompany';
 import Process from './pages/Process';
 import Team from './pages/Team';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function startApp() {
   return (
-    <HashRouter>
+    <BrowserRouter basename="/initialreactviteproject">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -31,7 +31,7 @@ function startApp() {
       </Routes>
       <Contactform />
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
