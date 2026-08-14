@@ -1,29 +1,42 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <title>Loading...</title>
 
     <script>
-        sessionStorage.redirect = location.href;
+        sessionStorage.setItem(
+            'redirect',
+            location.pathname + location.search + location.hash
+        );
 
-
-        (function(){
-            var redirect = sessionStorage.redirect;
-            delete sessionStorage.redirect;
-
-            if(redirect && redirect !== location.href){
-                history.replaceState(null, null, redirect);
-            }
-        })
+        window.location.replace(
+            '/initialreactviteproject/'
+        );
     </script>
+    ```html
+<script>
+    (function () {
+        var redirect = sessionStorage.getItem('redirect');
 
-    <meta
-        http-equiv="refresh"
-        content="0;URL='/initialreactviteproject/'"
-    >
+        if (redirect) {
+            sessionStorage.removeItem('redirect');
+
+            window.history.replaceState(
+                null,
+                '',
+                '/initialreactviteproject' + redirect
+            );
+        }
+    })();
+</script>
+```
+
 </head>
 
 <body>
 </body>
 </html>
+```
