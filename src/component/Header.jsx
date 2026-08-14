@@ -84,7 +84,7 @@ function Header() {
                             <li className="nav-item">
                                 <NavLink
                                     className={navLinkClass}
-                                    to="/lifeevent"
+                                    to="/lifeatcompany"
                                     onClick={closeMenu}
                                 >
                                     Life @ Company
