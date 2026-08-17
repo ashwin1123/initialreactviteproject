@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import {Navigation, Pagination, Autoplay} from 'swiper/modules';
 import "swiper/css";
 import "swiper/css/navigation";
+import ratingImage from "../assets/img/rating-image.png";
+import awardImage from "../assets/img/awardimg.png";
 
 const industryImages = import.meta.glob(
   "../assets/img/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}",
@@ -332,9 +334,9 @@ function Home() {
                         </div>
                         <div className="homeBannerNewRating_trust mb-3">Trusted by Startups, Enterprises &amp; Global Brands</div>
                         <div className="homeRating_meta">
-                            <span><img src="src/assets/img/check_icon.svg" className="mr-2" />Free 30-Min Strategy Session</span> &nbsp;&nbsp;
-                            <span><img src="src/assets/img/check_icon.svg" className="mr-2" />Live Video Meeting</span> &nbsp;&nbsp;
-                            <span><img src="src/assets/img/check_icon.svg" className="mr-2" />No Obligation</span>
+                            <span><img src={ratingImage} className="mr-2" />Free 30-Min Strategy Session</span> &nbsp;&nbsp;
+                            <span><img src={ratingImage} className="mr-2" />Live Video Meeting</span> &nbsp;&nbsp;
+                            <span><img src={ratingImage} className="mr-2" />No Obligation</span>
                         </div>
                         <div className="homeBanner_exploreAI">
                             <span className="mr-2">◆</span>
@@ -838,7 +840,7 @@ function Home() {
             <div className="col-md-12 text-center">
               <h2 className="text-white font-weight-bold">Chronicles of Our Award-Winning Journey</h2>
               <p className="text-white">Setting higher standards to drive positive change. Here are some recent recognitions that highlight our commitment to excellence.</p>
-              <img src="src/assets/img/awardimg.png" className="img-fluid" />
+              <img src={awardImage} className="img-fluid" />
             </div>
           </div>
         </div>
