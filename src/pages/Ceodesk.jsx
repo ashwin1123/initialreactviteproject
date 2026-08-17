@@ -1,5 +1,5 @@
 import React from 'react'
-import ceoDesk from "src/assets/img/person-m-7.webp"
+import ceoDesk from "../assets/img/person-m-7.webp"
 
 const Ceodesk = () => {
   return (
