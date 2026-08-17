@@ -329,7 +329,7 @@ function Home() {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="rating-star mb-3">
-                            <img src="src/assets/img/rating-image.png" className="img-fluid" />
+                            <img src={ratingImage} className="img-fluid" />
                             <span className="homeBannerRating_stars_value">4.5 stars</span>
                         </div>
                         <div className="homeBannerNewRating_trust mb-3">Trusted by Startups, Enterprises &amp; Global Brands</div>
