@@ -2,8 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Redirecting...</title>
 
-    <title>Loading...</title>
+    <script>
+        (function () {
+            var path = window.location.pathname;
+            var search = window.location.search;
+            var hash = window.location.hash;
+
+            var base = "/initialreactviteproject";
+
+            if (path.startsWith(base)) {
+
+                var route = path.substring(base.length);
+
+                sessionStorage.setItem(
+                    "github-pages-route",
+                    route + search + hash
+                );
+
+                window.location.replace(base + "/");
+            }
+        })();
+    </script>
+</head>
+
+<body>
+    Loading...
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Loading...</title> -->
 <!-- 
     <script>
         sessionStorage.setItem(
@@ -32,7 +65,7 @@
     })();
 </script> -->
 
-<script>
+<!-- <script>
     (function (){
         var path = window.location.pathname;
         var search = window.location.search;
@@ -58,5 +91,5 @@
 
 <body>
 </body>
-</html>
+</html> -->
 
