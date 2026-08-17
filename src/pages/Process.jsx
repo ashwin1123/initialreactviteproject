@@ -87,7 +87,7 @@ const Process = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 text-white text-center">
-                        <h2>Our Project Execution Structure</h2>
+                        <h2 className='text-white'>Our Project Execution Structure</h2>
                         <p>We embrace Agile Methodology- to encourage transparent communication; to foster collaboration; to combat uncertainty and chaos; to cope with change.</p>
                     </div>
                     <div className="col-md-12 text-center">
