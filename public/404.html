@@ -6,29 +6,31 @@
 
     <script>
         (function () {
+
             var path = window.location.pathname;
             var search = window.location.search;
             var hash = window.location.hash;
 
             var base = "/initialreactviteproject";
 
-            if (path.startsWith(base)) {
+            var route = path.substring(base.length);
 
-                var route = path.substring(base.length);
+            var redirect =
+                base +
+                "/?p=" +
+                encodeURIComponent(route) +
+                "&q=" +
+                encodeURIComponent(search) +
+                "&h=" +
+                encodeURIComponent(hash);
 
-                sessionStorage.setItem(
-                    "github-pages-route",
-                    route + search + hash
-                );
+            window.location.replace(redirect);
 
-                window.location.replace(base + "/");
-            }
         })();
     </script>
 </head>
 
 <body>
-    Loading...
 </body>
 </html>
 <!-- <!DOCTYPE html>
