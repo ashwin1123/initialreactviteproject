@@ -1,4 +1,5 @@
 import React from 'react'
+import careerBenifits from "../assets/img/teamBuilding.png";
 
 const Careerbenifits = () => {
   return (
@@ -153,7 +154,7 @@ const Careerbenifits = () => {
                         <button className="btn btn-danger rounded-0">Apply Now</button>
                     </div>
                     <div className="col-md-6 teambuilding  pr-0">
-                        <img src="src/assets/img/teamBuilding.png" className="img-fluid"/>
+                        <img src={careerBenifits} className="img-fluid"/>
                     </div>
                 </div>
             </div>

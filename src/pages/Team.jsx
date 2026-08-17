@@ -1,5 +1,5 @@
 import React from 'react'
-
+import teamImage from "../assets/img/person-m-7.webp";
 const Team = () => {
   return (
     <main>
@@ -144,7 +144,7 @@ const Team = () => {
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
                         <div className="ceoBox">
                             <div className="team-photo">
-                                <img src="src/assets/img/person-m-7.webp" alt="Walter White" />
+                                <img src={teamImage} alt="Walter White" />
                             </div>
                             <div className="team-info">
                                 <h3>Walter White</h3>

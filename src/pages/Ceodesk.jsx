@@ -1,4 +1,5 @@
 import React from 'react'
+import ceoDesk from "src/assets/img/person-m-7.webp"
 
 const Ceodesk = () => {
   return (
@@ -33,7 +34,7 @@ const Ceodesk = () => {
                 <div class="col-lg-12 col-md-12 mb-4">
                   <div class="team-box">
                     <div class="team-photo">
-                      <img src="src/assets/img/person-m-7.webp" alt="Walter White" />
+                      <img src={ceoDesk} alt="Walter White" />
                     </div>
                     <div class="team-info">
                       <h3>Walter White</h3>

@@ -1,5 +1,58 @@
 import React from 'react'
 
+import yoyAISoftwareimag from "src/assets/img/agile.webp"
+import requiredDiscovery from "src/assets/img/process-discovery.jpg"
+import requireUiUxDesign from "src/assets/img/process-uiux.jpg"
+import requireSoftwareDevelop from "src/assets/img/process-development.jpg"
+import requireTestingDevelop from "src/assets/img/process-testing.jpg"
+import requireDeployandLaunch from "src/assets/img/process-deployment.jpg"
+import requireSupprtandmaintain from "src/assets/img/process-support.jpg"
+
+import photoshopImage from "src/assets/img/photoshop.png"
+import illustratorImage from "src/assets/img/illustrator.png"
+import xdImage from "src/assets/img/adobe-xd.png"
+import aftereffectImage from "src/assets/img/after-effects.png"
+import sketchImage from "src/assets/img/sketch.png"
+import invisionImage from "src/assets/img/invision.png"
+
+
+import javaImage from "src/assets/img/java.png"
+import kotlinImage from "src/assets/img/kotlin.png"
+import swiftImage from "src/assets/img/swift.png"
+import sqliteImage from "src/assets/img/sqlite.png"
+import reactnativeImage from "src/assets/img/react-native.png"
+import flutterImage from "src/assets/img/flutter.png"
+import objectivecImage from "src/assets/img/objective-c.png"
+
+
+import angularjsImage from "src/assets/img/angularjs.png"
+import nodejsImage from "src/assets/img/nodejs.png"
+import reactjsImage from "src/assets/img/reactjs.png"
+import phpImage from "src/assets/img/php.png"
+import magentoImage from "src/assets/img/magento.png"
+
+
+import awsImage from "src/assets/img/aws.png"
+import azureImage from "src/assets/img/azure.png"
+import googlecloudImage from "src/assets/img/google-cloud.png"
+
+
+import phpbackendImage from "src/assets/img/php-backend.png"
+import cppImage from "src/assets/img/cpp.png"
+import railsImage from "src/assets/img/rails.png"
+import rubyImage from "src/assets/img/ruby.png"
+import javabackendImage from "src/assets/img/java-backend.png"
+
+import mongodbImage from "src/assets/img/mongodb.png"
+import cassandraImage from "src/assets/img/cassandra.png"
+import postgresqlImage from "src/assets/img/postgresql.png"
+import sqlserverImage from "src/assets/img/sql-server.png"
+import oracleImage from "src/assets/img/oracle.png"
+import sqlitedatabaseImage from "src/assets/img/sqlite-database.png"
+import apacheImage from "src/assets/img/apache.png"
+
+
+
 const Process = () => {
   return (
     <main>
@@ -25,7 +78,7 @@ const Process = () => {
                         <h2><strong>Your End-To-End AI-Driven Software Development and Digital Transformation Partner</strong></h2>
                     </div>
                     <div className="col-md-6">
-                        <img src="src/assets/img/agile.webp" className="img-fluid"/>
+                        <img src={yoyAISoftwareimag} className="img-fluid"/>
                     </div>
                 </div>
             </div>
@@ -44,7 +97,7 @@ const Process = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-5">
                                     <div className="process-image">
-                                        <img src="src/assets/img/process-discovery.jpg"
+                                        <img src={requiredDiscovery}
                                             alt="Requirement Discovery"
                                             className="img-fluid" />
                                     </div>
@@ -67,7 +120,7 @@ const Process = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-5">
                                     <div className="process-image">
-                                        <img src="src/assets/img/process-uiux.jpg" alt="UI UX Design" className="img-fluid" />
+                                        <img src={requireUiUxDesign} alt="UI UX Design" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -88,7 +141,7 @@ const Process = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-5">
                                     <div className="process-image">
-                                        <img src="src/assets/img/process-development.jpg" alt="Software Development" className="img-fluid" />
+                                        <img src={requireSoftwareDevelop} alt="Software Development" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -109,7 +162,7 @@ const Process = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-5">
                                     <div className="process-image">
-                                        <img src="src/assets/img/process-testing.jpg"
+                                        <img src={requireTestingDevelop}
                                             alt="Testing and Quality Assurance"
                                             className="img-fluid" />
                                     </div>
@@ -132,7 +185,7 @@ const Process = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-5">
                                     <div className="process-image">
-                                        <img src="src/assets/img/process-deployment.jpg" alt="Deployment" className="img-fluid" />
+                                        <img src={requireDeployandLaunch} alt="Deployment" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -153,7 +206,7 @@ const Process = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-5">
                                     <div className="process-image">
-                                        <img src="src/assets/img/process-support.jpg" alt="Support and Maintenance" className="img-fluid" />
+                                        <img src={requireSupprtandmaintain} alt="Support and Maintenance" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -280,71 +333,71 @@ const Process = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-12 mb-4">
-                    <h2>Tools & Technologies We Use For Mobile & Web App Development</h2>
+                    <h2 className='text-white'>Tools & Technologies We Use For Mobile & Web App Development</h2>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
                 </div>
                 <div className="row team-work-profile">
                     <div className="col-md-12 technologies_item mb-5">
                         <h4>Design</h4>
                         <ul>
-                            <li><img src="src/assets/img/photoshop.png" className="mr-2"/> Photoshop</li>
-                            <li><img src="src/assets/img/illustrator.png" className="mr-2"/> Illustrator</li>
-                            <li><img src="src/assets/img/adobe-xd.png" className="mr-2"/> Adobe XD</li>
-                            <li><img src="src/assets/img/after-effects.png" className="mr-2"/> After Effects</li>
-                            <li><img src="src/assets/img/sketch.png" className="mr-2"/> Sketch</li>
-                            <li><img src="src/assets/img/invision.png" className="mr-2"/> Invision</li>
+                            <li><img src={photoshopImage} className="mr-2"/> Photoshop</li>
+                            <li><img src={illustratorImage} className="mr-2"/> Illustrator</li>
+                            <li><img src={xdImage} className="mr-2"/> Adobe XD</li>
+                            <li><img src={aftereffectImage} className="mr-2"/> After Effects</li>
+                            <li><img src={sketchImage} className="mr-2"/> Sketch</li>
+                            <li><img src={invisionImage} className="mr-2"/> Invision</li>
                         </ul>
                     </div>
                     <div className="col-md-12 technologies_item mb-5">
                         <h4>Mobile</h4>
                         <ul>
-                            <li><img src="src/assets/img/java.png" className="mr-2"/> Java</li>
-                            <li><img src="src/assets/img/kotlin.png" className="mr-2"/> Kotlin</li>
-                            <li><img src="src/assets/img/swift.png" className="mr-2"/> Swift</li>
-                            <li><img src="src/assets/img/sqlite.png" className="mr-2"/> SQLite</li>
-                            <li><img src="src/assets/img/react-native.png" className="mr-2"/> React Native</li>
-                            <li><img src="src/assets/img/flutter.png" className="mr-2"/> Flutter</li>
-                            <li><img src="src/assets/img/objective-c.png" className="mr-2"/> Objective-C</li>
+                            <li><img src={javaImage} className="mr-2"/> Java</li>
+                            <li><img src={kotlinImage} className="mr-2"/> Kotlin</li>
+                            <li><img src={swiftImage} className="mr-2"/> Swift</li>
+                            <li><img src={sqliteImage} className="mr-2"/> SQLite</li>
+                            <li><img src={reactnativeImage} className="mr-2"/> React Native</li>
+                            <li><img src={flutterImage} className="mr-2"/> Flutter</li>
+                            <li><img src={objectivecImage} className="mr-2"/> Objective-C</li>
                         </ul>
                     </div>
                     <div className="col-md-12 technologies_item mb-5">
                         <h4>Web</h4>
                         <ul>
-                            <li><img src="src/assets/img/angularjs.png" className="mr-2"/> AngularJS</li>
-                            <li><img src="src/assets/img/nodejs.png" className="mr-2"/> NodeJS</li>
-                            <li><img src="src/assets/img/reactjs.png" className="mr-2"/> ReactJS</li>
-                            <li><img src="src/assets/img/php.png" className="mr-2"/> PHP</li>
-                            <li><img src="src/assets/img/magento.png" className="mr-2"/> Magento</li>
+                            <li><img src={angularjsImage} className="mr-2"/> AngularJS</li>
+                            <li><img src={nodejsImage} className="mr-2"/> NodeJS</li>
+                            <li><img src={reactjsImage} className="mr-2"/> ReactJS</li>
+                            <li><img src={phpImage} className="mr-2"/> PHP</li>
+                            <li><img src={magentoImage} className="mr-2"/> Magento</li>
                         </ul>
                     </div>
                     <div className="col-md-12 technologies_item mb-5">
                         <h4>Platform</h4>
                         <ul>
-                            <li><img src="src/assets/img/aws.png" className="mr-2"/> AWS</li>
-                            <li><img src="src/assets/img/azure.png" className="mr-2"/> Azure</li>
-                            <li><img src="src/assets/img/google-cloud.png" className="mr-2"/> Google Cloud</li>
+                            <li><img src={awsImage} className="mr-2"/> AWS</li>
+                            <li><img src={azureImage} className="mr-2"/> Azure</li>
+                            <li><img src={googlecloudImage} className="mr-2"/> Google Cloud</li>
                         </ul>
                     </div>
                     <div className="col-md-12 technologies_item mb-5">
                         <h4>Technologies</h4>
                             <ul>
-                                <li><img src="src/assets/img/php-backend.png" className="mr-2"/> PHP</li>
-                                <li><img src="src/assets/img/cpp.png" className="mr-2"/> C++</li>
-                                <li><img src="src/assets/img/rails.png" className="mr-2"/> Rails</li>
-                                <li><img src="src/assets/img/ruby.png" className="mr-2"/> Ruby</li>
-                                <li><img src="src/assets/img/java-backend.png" className="mr-2"/> Java</li>
+                                <li><img src={phpbackendImage} className="mr-2"/> PHP</li>
+                                <li><img src={cppImage} className="mr-2"/> C++</li>
+                                <li><img src={railsImage} className="mr-2"/> Rails</li>
+                                <li><img src={rubyImage} className="mr-2"/> Ruby</li>
+                                <li><img src={javabackendImage} className="mr-2"/> Java</li>
                             </ul>
                         </div>
                         <div className="col-md-12 technologies_item mb-5">
                             <h4>Server Side</h4>
                             <ul>
-                                <li><img src="src/assets/img/mongodb.png" className="mr-2"/> MongoDB</li>
-                                <li><img src="src/assets/img/cassandra.png" className="mr-2"/> Cassandra</li>
-                                <li><img src="src/assets/img/postgresql.png" className="mr-2"/> Postgre SQL</li>
-                                <li><img src="src/assets/img/sql-server.png" className="mr-2"/> SQL Server</li>
-                                <li><img src="src/assets/img/oracle.png" className="mr-2"/> Oracle</li>
-                                <li><img src="src/assets/img/sqlite-database.png" className="mr-2"/> SQLite</li>
-                                <li><img src="src/assets/img/apache.png" className="mr-2"/> Apache</li>
+                                <li><img src={mongodbImage} className="mr-2"/> MongoDB</li>
+                                <li><img src={cassandraImage} className="mr-2"/> Cassandra</li>
+                                <li><img src={postgresqlImage} className="mr-2"/> Postgre SQL</li>
+                                <li><img src={sqlserverImage} className="mr-2"/> SQL Server</li>
+                                <li><img src={oracleImage} className="mr-2"/> Oracle</li>
+                                <li><img src={sqlitedatabaseImage} className="mr-2"/> SQLite</li>
+                                <li><img src={apacheImage} className="mr-2"/> Apache</li>
                             </ul>
                         </div>
                     </div>
