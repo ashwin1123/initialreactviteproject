@@ -1,4 +1,8 @@
 import React from 'react'
+import ceoImage from "../assets/img/person-m-7.webp";
+import cooImage from "../assets/img/person-f-8.webp";
+import ctoImage from "../assets/img/person-m-6.webp";
+import accountactImage from "../assets/img/person-f-4.webp";
 
 const Boardofdirector = () => {
   return (
@@ -29,7 +33,7 @@ const Boardofdirector = () => {
                         <div className="col-lg-6 col-md-12 mb-4">
                             <div className="team-box">
                                 <div className="team-photo">
-                                    <img src="src/assets/img/person-m-7.webp" alt="Walter White" />
+                                    <img src={ceoImage} alt="Walter White" />
                                 </div>
                                 <div className="team-info">
                                     <h3>Walter White</h3>
@@ -55,7 +59,7 @@ const Boardofdirector = () => {
                         <div className="col-lg-6 col-md-12 mb-4">
                             <div className="team-box">
                                 <div className="team-photo">
-                                    <img src="src/assets/img/person-f-8.webp" alt="Sarah Jhonson" />
+                                    <img src={cooImage} alt="Sarah Jhonson" />
                                 </div>
                                 <div className="team-info">
                                     <h3>Sarah Jhonson</h3>
@@ -80,7 +84,7 @@ const Boardofdirector = () => {
                         <div className="col-lg-6 col-md-12 mb-4">
                             <div className="team-box">
                                 <div className="team-photo">
-                                    <img src="src/assets/img/person-m-6.webp" alt="Team Member" />
+                                    <img src={ctoImage} alt="Team Member" />
                                 </div>
                                 <div className="team-info">
                                     <h3>William Anderson</h3>
@@ -103,7 +107,7 @@ const Boardofdirector = () => {
                         <div className="col-lg-6 col-md-12 mb-4">
                             <div className="team-box">
                                 <div className="team-photo">
-                                    <img src="src/assets/img/person-f-4.webp" alt="Team Member" />
+                                    <img src={accountactImage} alt="Team Member" />
                                 </div>
                                 <div className="team-info">
                                     <h3>Amanda Jepson</h3>
