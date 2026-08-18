@@ -437,7 +437,7 @@ span.homeBanner_title_theme {
 section#swiperslider{
     background: url("../img/homeBannerBg.png") top left no-repeat;
     background-color: #14141c !important;
-    overflow: auto;
+    /* overflow: auto; */
 }
 /* Slider Container */
 .services-slider-section {
